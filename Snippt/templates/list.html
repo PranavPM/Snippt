@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+   <title>Pranav.P.M</title>
+</head>
+   <link rel="stylesheet" href="..\static\dist.css">
+   <body>
+   
+      <table border = 1>
+         <thead>
+            <td>Name</td>
+            <td>E-mail</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row[0]}}</td>
+               <td>{{row[1]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">back to home page</a>
+      
+   </body>
+</html>
