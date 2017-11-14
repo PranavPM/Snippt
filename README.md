@@ -12,11 +12,17 @@ pip install virtualenv
 ```
 Clone directory
 ```
+git clone https://github.com/PranavPM/Snippt.git
+cd Snippt
 virtualenv venv
 ```
 To activate corresponding environment,on Windows, 
 ```
 venv\scripts\activate
+```
+We are now ready to install Flask in this environment.
+```
+pip install Flask
 ```
 Python script is executed from Python shell.
 ```
