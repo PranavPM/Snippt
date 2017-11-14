@@ -34,5 +34,4 @@ A message in Python shell informs you that
 ```
 visit the link and you are good to go!!!!
 
-Or this web app is deployed in the cloud already, can visit it through this link
-www.PranavPM.pythonanywhere.com
+Or this web app is deployed in the cloud already, can visit it through the link mentioned above in the description.
