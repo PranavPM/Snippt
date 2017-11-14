@@ -33,5 +33,6 @@ A message in Python shell informs you that
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 visit the link and you are good to go!!!!
-	
-  
+
+Or this web app is deployed in the cloud already, can visit it through this link
+www.PranavPM.pythonanywhere.com
