@@ -23,7 +23,7 @@ def addrec():
             con.execute('INSERT INTO invited VALUES (?,?)',(uname,email) )
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login("isedept310@gmail.com", "isedept77")
+            server.login("isedept310@gmail.com", "sbmjc1234")
             SUBJECT = "SNIPPT"
             TEXT = "Please visit this link \n www.mysnippt.com "
             msg = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
