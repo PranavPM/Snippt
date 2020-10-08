@@ -27,7 +27,7 @@ def addrec():
             SUBJECT = "SNIPPT"
             TEXT = "Please visit this link \n www.mysnippt.com "
             msg = 'Subject: {}\n\n{}'.format(SUBJECT, TEXT)
-            server.sendmail("isedept310@gmail.com", email, msg)
+            server.sendmail("Enter the same email ID here again", email, msg)
             server.quit()
             msg = "Sent Invite,check mail. Thank you!!"
             con.commit()
